@@ -1,0 +1,76 @@
+#intro {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    height: 175px;
+}
+
+.intro-items {
+    color: white;
+    left: 10px;
+    top: 10px;
+    position: relative;
+}
+
+#intro-name {}
+
+#intro-jobRole {
+    line-height: 1.2em;
+}
+
+#intro-jobRole:before {
+    position: absolute;
+    top: 1.2em;
+    height: 0;
+    width: 175px;
+    content: '';
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+#contact {
+    top: 25px;
+    color: black;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    background-color: white;
+}
+
+#skills {
+    top: 250px;
+    float: left;
+    position: relative;
+    background-color: aqua;
+    width: 80%;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+#languages {
+    top: 700px;
+    float: left;
+    position: relative;
+    background-color: blueviolet;
+}
+
+#experience {
+    float: right;
+    position: relative;
+    background-color: blue;
+    width: 175px;
+}
+
+#education {
+    float: right;
+    position: relative;
+    background-color: brown;
+    width: 175px;
+}
+
+#projects {
+    float: right;
+    position: relative;
+    background-color: yellow;
+    width: 175px;
+}
