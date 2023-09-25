@@ -1,18 +1,32 @@
-#intro {
-    background-color: black;
+body, h2, h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    height: 175px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+#intro {
+    padding: 20px;
 }
 
 .intro-items {
     color: white;
-    left: 10px;
-    top: 10px;
-    position: relative;
 }
-
-#intro-name {}
 
 #intro-jobRole {
     line-height: 1.2em;
@@ -20,7 +34,7 @@
 
 #intro-jobRole:before {
     position: absolute;
-    top: 1.2em;
+    top: 5.2em;
     height: 0;
     width: 175px;
     content: '';
@@ -28,49 +42,30 @@
 }
 
 #contact {
-    top: 25px;
-    color: black;
-    position: relative;
-    font-family: Arial, Helvetica, sans-serif;
-    float: left;
     background-color: white;
-}
-
-#skills {
-    top: 250px;
-    float: left;
-    position: relative;
-    background-color: aqua;
-    width: 80%;
-    margin: 20px 0;
+    color: black;
     padding: 20px;
-    border: 1px solid #ccc;
 }
 
-#languages {
-    top: 700px;
-    float: left;
-    position: relative;
-    background-color: blueviolet;
+#contact h4 {
+    margin-bottom: 10px;
 }
 
-#experience {
-    float: right;
-    position: relative;
-    background-color: blue;
-    width: 175px;
+.section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
 }
 
-#education {
-    float: right;
-    position: relative;
-    background-color: brown;
-    width: 175px;
+.section h4 {
+    margin-bottom: 10px;
 }
 
-#projects {
-    float: right;
-    position: relative;
-    background-color: yellow;
-    width: 175px;
+.section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.section ul li {
+    margin-bottom: 5px;
 }
