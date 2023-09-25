@@ -1,4 +1,9 @@
-body, h2, h4, p, ul, li {
+body,
+h2,
+h4,
+p,
+ul,
+li {
     margin: 0;
     padding: 0;
 }
