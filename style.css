@@ -51,6 +51,32 @@ header {
     border-top: 1px solid rgb(255, 255, 255);
 }
 
+nav {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #cc1a1a;
+}
+
+
 #contact {
     background-color: white;
     color: black;
@@ -97,4 +123,12 @@ ul.skills-items {
     justify-content: center;
     align-items: center;
     list-style-type: square;
+}
+
+footer {
+    text-align: center;
+    padding: 35px;
+    background-color: #000000;
+    color: #ffffff;
+    height: 50px;
 }
