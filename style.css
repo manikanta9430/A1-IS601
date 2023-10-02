@@ -130,6 +130,11 @@ ul.skills-items {
     list-style-type: square;
 }
 
+.skills-items span {
+    font-size: 20px;
+    color: #FFD700;
+}
+
 footer {
     text-align: center;
     padding: 35px;
