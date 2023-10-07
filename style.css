@@ -21,11 +21,14 @@ header {
 
 #intro {
     padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
+
+#intro>* {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 
 .intro-items {
     color: white;
@@ -49,7 +52,7 @@ header {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 #profile-pic {
@@ -98,10 +101,12 @@ nav a:hover {
     background-color: white;
     padding: 20px;
     margin: 20px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    text-align: center;
+}
+
+.section>* {
+    margin: 0 auto;
 }
 
 .section h4 {
@@ -123,14 +128,11 @@ nav a:hover {
 }
 
 ul.skills-items {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    list-style-type: square;
+    list-style-type: none;
 }
 
 .skills-items span {
+    display: inline-block;
     font-size: 20px;
     color: #FFD700;
 }
@@ -141,4 +143,14 @@ footer {
     background-color: #000000;
     color: #ffffff;
     height: 50px;
+}
+
+#projects ol {
+    list-style-type: none;
+}
+
+#projects ul {
+    list-style-type: square;
+    text-align: left;
+    margin-left: 580px;
 }
