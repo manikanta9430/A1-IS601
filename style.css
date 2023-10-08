@@ -129,6 +129,8 @@ nav a:hover {
 
 ul.skills-items {
     list-style-type: none;
+    padding-left: 675px;
+    text-align: left;
 }
 
 .skills-items span {
@@ -142,15 +144,24 @@ footer {
     padding: 35px;
     background-color: #000000;
     color: #ffffff;
-    height: 50px;
+    height: 20px;
 }
 
 #projects ol {
     list-style-type: none;
+    text-align: left;
+    margin-left: 500px;
 }
 
 #projects ul {
     list-style-type: square;
     text-align: left;
-    margin-left: 580px;
+}
+
+#education tr {
+    text-align: left;
+}
+
+#experience tr {
+    text-align: left;
 }
